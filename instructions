@@ -1,0 +1,20 @@
+To run this script you will need Python 3 with the following modules installed:
+
+pip install xlrd==1.2.0
+pip install python-docx==0.8.10
+How to use
+Open Input_Data.xlsx
+Fill Column A with the text that you want to see on each card's top side
+Fill Column B with the text that you want to see on each card's bottom side
+When you are done save the file
+Run flash_card_generator.py script
+When the script is done a new file called Printable_Flash_Cards.docx will appear in the root folder
+Open the freshly generated .docx file, make sure it is exactly what you wanted
+Print the document as doublesided
+Enjoy your brand new flash cards
+File names
+Change the default file names with the help of the below global varables:
+
+INPUT_FILE_NAME     = 'Input_Data.xlsx'
+TEMPLATE_FILE_NAME  = 'Template.docx'
+OUTPUT_FILE_NAME    = 'Printable_Flash_Cards.docx'
